@@ -4,6 +4,7 @@ import fake from './FakeData/fake.json';
 import Courses from './Components/Courses/Courses';
 import { useState } from 'react';
 import Cart from './Components/Cart/Cart';
+import Header from './Components/Header/Header';
 
 function App() {
   let data = fake;
@@ -19,20 +20,21 @@ function App() {
   }
 
   return (
-    <div className="container">
+    
+    <div>
+      <Header></Header>
       <div className="row col-md-12">
-      <div className="course-item col-md-10">
+        <div className="course-item col-md-10">
+        <h1 className="courses-headline">Find What Fascinates You</h1>
         {
           data.map(course => <Courses course={course} key={course.id} handleCart={handleCart}></Courses>)
         }
       </div>
-      <div className="cart-item col-md-2">
+        <div className="cart-item col-md-2">
           <Cart cart={cart}></Cart>
       </div>
       </div>
-      
-
-      
+         
     </div>
   );
 }

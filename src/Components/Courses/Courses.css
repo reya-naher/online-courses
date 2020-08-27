@@ -1,3 +1,35 @@
 .card-container{
   float:left;
 }
+.card{
+  height: 480px;
+  margin: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+.card-title{
+  text-align: center;
+}
+.instructor{
+  text-align:center;
+  font-weight: bold;
+}
+.price{
+  font-weight:bold;
+}
+.star-icon,.rating{
+  color:#EB8A2F;
+  font-weight:bold;
+}
+.badge{
+  background-color: #FFE799;
+  color:rgb(27, 25, 25);
+}
+.enrol{
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #EB8A2F;
+}
+
+
