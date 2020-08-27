@@ -10,7 +10,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src="https://img.techpowerup.org/200827/c1.jpg"
-            alt="First slide"
+            alt="../../../images/c1.jpg"
           />
           <Carousel.Caption>
             <h1 className="carousel-header">Explore YourSelf</h1>
@@ -21,7 +21,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src="https://img.techpowerup.org/200827/c4.jpg"
-            alt="Third slide"
+            alt="../../../images/c4.jpg"
           />
           <Carousel.Caption>
             <h1 className="carousel-header">Explore YourSelf</h1>
@@ -32,7 +32,7 @@ const Header = () => {
           <img
             className="d-block w-100"
             src="https://img.techpowerup.org/200827/c2.jpg"
-            alt="Third slide"
+            alt="../../../images/c2.jpg"
           />
           <Carousel.Caption>
             <h1 className="carousel-header">Explore YourSelf</h1>

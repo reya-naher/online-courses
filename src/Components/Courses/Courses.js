@@ -16,7 +16,7 @@ const Courses = (props) => {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">{course.name}</h5>
-            <img className="card-img" src={course.img} alt="" />
+            <img className="card-img" src={course.img} alt={course.alt} />
             <div className="card-text">
               <p className="instructor"><FontAwesomeIcon className="user-icon" icon={faUserAlt} /> {course.instructor}</p>
               <p><span className="rating">{course.rating}</span><FontAwesomeIcon className="star-icon" icon={faStar} /><FontAwesomeIcon className="star-icon" icon={faStar} /><FontAwesomeIcon className="star-icon" icon={faStar} /><FontAwesomeIcon className="star-icon" icon={faStar} />
