@@ -2,8 +2,8 @@
   float:left;
 }
 .card{
-  height: 480px;
-  margin: 10px;
+  height: 500px;
+  margin: 15px 0px;
   padding-bottom: 10px;
   box-shadow: 3px 3px 5px 6px #ccc;
 }
@@ -17,19 +17,27 @@
 .price{
   font-weight:bold;
 }
+.duration,.level{
+  font-weight: 600;
+  color:gray;
+}
 .star-icon,.rating{
   color:#EB8A2F;
   font-weight:bold;
+}
+.student{
+  float:right;
 }
 .badge{
   background-color: #FFE799;
   color:rgb(27, 25, 25);
 }
-.enrol{
+.enroll{
   width: 50%;
   margin: auto;
   border-radius: 25px;
   background-color: #EB8A2F;
 }
+
 
 

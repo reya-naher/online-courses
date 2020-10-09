@@ -1,11 +1,17 @@
+/* cart design */
 .cart-length{
-  font-size: 25px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #ec5252;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 .card-img{
   height: 150px;
-}
-.cart-number{
-  text-align:center;
 }
 .cart-header{
   border-bottom: 2px solid gray;
@@ -15,19 +21,47 @@
   font-weight:bold;
   font-size: 60px;
 }
-.cart-card{
-  height: 125px;
-}
-.cart-card-price{
-  font-weight: bold;
+.cart-card-instructor{
+  font-weight: 200;
 }
 .card-header{
   text-align:center;
   background-color: #343b58!important;
   color:white;
 }
-.total-price{
-  color:#081341;
-  font-size:20px;
-  font-weight:bold;
+
+.courses-cart{
+  overflow-x:auto;
+  padding: 10px;
+  background-color: #c2c1ba;
+  margin: 40px 0px;
 }
+.back{
+  margin: auto;
+  border-radius: 25px;
+  background-color: #0f7c90;
+  color: white;
+  float:right;
+}
+.cross-icon{
+  font-size: 40px; 
+  color: red;
+  float: right;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+.check-icon{
+  font-size: 45px; 
+  color: green;
+  float: right;
+  margin-top: 15px;
+  padding: 0px 10px;
+}
+.plus-icon{
+  font-size: 35px;
+  margin-left: 35px;
+  position: absolute;
+  top: 200px;
+  color: black;
+}
+

@@ -1,16 +1,21 @@
-[
+const data = [
   {
     "id": 1,
     "name": "Full Stack Web Developer",
     "instructor": "Maximilian Schwarzmüller",
-    "img":"https://img.techpowerup.org/200827/front-end1-jpg.png",
+    "img":"https://i.imgur.com/Gs5d6cs.jpg",
     "alt":"../../images/1.jpg",
     "price": 1338.99,
     "student":93338,
-    "badge": "Bestseller",
+    "badge": "",
     "level": "Beginner",
     "time": "4 months 10hours/week",
-    "rating":"4.9"
+    "rating":"4.9",
+    "related":{
+      "topic1":"Developer",
+      "topic2":"fullstack"
+    },
+    "category":"web"
   },
   {
     "id": 2,
@@ -23,7 +28,12 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "3 months 10hours/week",
-    "rating":"4.6"
+    "rating":"4.6",
+    "related":{
+      "topic1":"javascript",
+      "topic2":"web"
+    },
+    "category":"web"
   },
   {
     "id": 3,
@@ -36,7 +46,12 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "2 months 8hours/week",
-    "rating":"4.5"
+    "rating":"4.5",
+    "related":{
+      "topic1":"python",
+      "topic2":"programming"
+    },
+    "category":"programming"
   },
   {
     "id": 4,
@@ -49,7 +64,12 @@
     "badge": "",
     "level": "Intermediate",
     "time": "2 months 10hours/week",
-    "rating":"4.6"
+    "rating":"4.6",
+    "related":{
+      "topic1":"react",
+      "topic2":"redux"
+    },
+    "category":"library"
   },  
   {
     "id": 5,
@@ -62,7 +82,12 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "2 months 10hours/week",
-    "rating":"4.2"
+    "rating":"4.2",
+    "related":{
+      "topic1":"node.js",
+      "topic2":"developer"
+    },
+    "category":"node"
   },  
   {
     "id": 6,
@@ -75,7 +100,12 @@
     "badge": "Bestseller",
     "level": "Advanced",
     "time": "4 months 10hours/week",
-    "rating":"4.5"
+    "rating":"4.5",
+    "related":{
+      "topic1":"artificial",
+      "topic2":"intelligence"
+    },
+    "category":"artificial"
   },  
   {
     "id": 7,
@@ -88,7 +118,12 @@
     "badge": "",
     "level": "Intermediate",
     "time": "3 months 10hours/week",
-    "rating":"4.1"
+    "rating":"4.1",
+    "related":{
+      "topic1":"machine",
+      "topic2":"learning"
+    },
+    "category":"artificial"
   },  
   {
     "id": 8,
@@ -101,7 +136,12 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "4 months 10hours/week",
-    "rating":"4.7"
+    "rating":"4.7",
+    "related":{
+      "topic1":"angular",
+      "topic2":"node.js"
+    },
+    "category":"node"
   },  
   {
     "id": 9,
@@ -114,7 +154,12 @@
     "badge": "Bestseller",
     "level": "Advanced",
     "time": "2 months 10hours/week",
-    "rating":"4.9"
+    "rating":"4.9",
+    "related":{
+      "topic1":"developer",
+      "topic2":"asp.net"
+    },
+    "category":"artificialBasic"
   },  
   {
     "id": 10,
@@ -127,7 +172,12 @@
     "badge": "",
     "level": "Advanced",
     "time": "2 months 10hours/week",
-    "rating":"4.0"
+    "rating":"4.0",
+    "related":{
+      "topic1":"developer",
+      "topic2":"ruby"
+    },
+    "category":"library"
   },  
   {
     "id": 11,
@@ -140,7 +190,12 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "4 months 10hours/week",
-    "rating":"4.4"
+    "rating":"4.4",
+    "related":{
+      "topic1":"android",
+      "topic2":"developer"
+    },
+    "category":"android"
   },  
   {
     "id": 12,
@@ -153,7 +208,12 @@
     "badge": "",
     "level": "Intermediate",
     "time": "3 months 10hours/week",
-    "rating":"4.3"
+    "rating":"4.3",
+    "related":{
+      "topic1":"docker",
+      "topic2":"intelligence"
+    },
+    "category":"artificialBasic"
   },  
   {
     "id": 13,
@@ -166,7 +226,12 @@
     "badge": "",
     "level": "Advanced",
     "time": "1 months 13hours/week",
-    "rating":"4.2"
+    "rating":"4.2",
+    "related":{
+      "topic1":"advanced",
+      "topic2":"intelligence"
+    },
+    "category":"css"
   },  
   {
     "id": 14,
@@ -179,8 +244,13 @@
     "badge": "Bestseller",
     "level": "Beginner",
     "time": "4 months 10hours/week",
-    "rating":"4.9"
-  },  
+    "rating":"4.9",
+    "related":{
+      "topic1":"flutter",
+      "topic2":"dart"
+  },
+  "category":"android"
+},  
   {
     "id": 15,
     "name": "PHP for Beginners",
@@ -192,6 +262,30 @@
     "badge": "",
     "level": "Beginner",
     "time": "4 months 10hours/week",
-    "rating":"4.0"
+    "rating":"4.0",
+    "related":{
+      "topic1":"php",
+      "topic2":"backend"
+    },
+    "category":"programming"
+  },
+  {
+    "id": 16,
+    "name": "Css Zero to Hero",
+    "instructor": "Jonas Schmedtmann",
+    "img":"https://i.imgur.com/NdaLa1m.jpg",
+    "alt":"../../images/13.jpg",
+    "price": 130.98,
+    "student":23456,
+    "badge": "",
+    "level": "Beginner",
+    "time": "1 months 13hours/week",
+    "rating":"4.2",
+    "related":{
+      "topic1":"css ",
+      "topic2":" scss"
+    },
+    "category":"css"
   }
 ]
+export default data;

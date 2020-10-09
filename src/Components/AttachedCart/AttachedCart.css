@@ -1,0 +1,26 @@
+.related li{
+  display: inline-block;
+  padding:5px;
+  border: 2px solid #0f7c90;;
+  border-radius: 16px;
+  margin: 5px;
+  color: #0f7c90;;
+  font-size: 15px;
+  font-weight: 700;
+}
+.related li a{
+  color:#0f7c90;
+  text-decoration:none;
+}
+.related li a:hover{
+  color:black;
+ }
+ .total-price{
+  color:#081341;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+}
+.related{
+  padding:0px;
+}

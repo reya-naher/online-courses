@@ -4,7 +4,14 @@
 .carousel-header{
   font-size: 150px;
   color:#f1e6e6;
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Lora', serif;
 }
 .carousel-text{
   font-size: 30px;
+}
+@media only screen and (max-width: 500px) {
+  .carousel-header{
+    font-size: 60px;
+  }
 }

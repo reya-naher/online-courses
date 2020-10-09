@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <div>
+    <>
       <Carousel>
         <Carousel.Item>
           <img
@@ -13,8 +13,12 @@ const Header = () => {
             alt="../../../images/c1.jpg"
           />
           <Carousel.Caption>
-            <h1 className="carousel-header">Explore YourSelf</h1>
-            <p className="carousel-text">Get ahead with expert-led training in coding, data, design, digital marketing, and more.</p>
+            <h1 className="carousel-header">
+              Explore YourSelf
+              </h1>
+            <p className="carousel-text">
+              Get ahead with expert-led training in coding, data, design, digital marketing, and more.
+              </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -24,8 +28,12 @@ const Header = () => {
             alt="../../../images/c4.jpg"
           />
           <Carousel.Caption>
-            <h1 className="carousel-header">Explore YourSelf</h1>
-            <p className="carousel-text">Get ahead with expert-led training in coding, data, design, digital marketing, and more.</p>
+            <h1 className="carousel-header">
+              Explore YourSelf
+              </h1>
+            <p className="carousel-text">
+              Get ahead with expert-led training in coding, data, design, digital marketing, and more.
+              </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,12 +43,16 @@ const Header = () => {
             alt="../../../images/c2.jpg"
           />
           <Carousel.Caption>
-            <h1 className="carousel-header">Explore YourSelf</h1>
-            <p className="carousel-text">Get ahead with expert-led training in coding, data, design, digital marketing, and more.</p>
+            <h1 className="carousel-header">
+              Explore YourSelf
+              </h1>
+            <p className="carousel-text">
+              Get ahead with expert-led training in coding, data, design, digital marketing, and more.
+              </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </>
   );
 };
 

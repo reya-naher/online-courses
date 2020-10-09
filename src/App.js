@@ -1,40 +1,45 @@
 import React from 'react';
 import './App.css';
-import fake from './FakeData/fake.json';
+import fake from './FakeData/fake';
 import Courses from './Components/Courses/Courses';
 import { useState } from 'react';
-import Cart from './Components/Cart/Cart';
 import Header from './Components/Header/Header';
 
-function App() {
-  let data = fake;
-  // console.log(data)
+function App() { 
+  const data = fake;
 
-  const [cart, setCart] = useState([])
-  const handleCart = (cartData) => {
-    //console.log("clicked", cartData)
-    const newCart = [...cart,cartData]
-    setCart(newCart)
-    
+/*cart state */
+  const [cartData, setCartData] = useState([])
 
+/*enroll/handleCart function*/
+const handleCart = (data) => {
+  const newCart = [...cartData, data]
+  setCartData(newCart)
+}
+
+/*delete function*/
+  const deleteItem = (key) => {
+    const newList = cartData.filter((item) => item.id !== key)
+    setCartData(newList);
   }
 
+  
   return (
-    
-    <div>
+    <div id="main">
       <Header></Header>
-      <div className="row col-md-12">
-        <div className="course-item col-md-10">
-        <h1 className="courses-headline">Find What Fascinates You</h1>
-        {
-          data.map(course => <Courses course={course} key={course.id} handleCart={handleCart}></Courses>)
-        }
-      </div>
-        <div className="cart-item col-md-2">
-          <Cart cart={cart}></Cart>
-      </div>
-      </div>
-         
+        <div className="course-item">
+          <h1 className="courses-headline">Find What Fascinates You
+          </h1>
+          {
+          data.map(course => <Courses
+            course={course}
+            key={course.id}
+            handleCart={handleCart}
+            cartData={cartData}
+            deleteItem={deleteItem}
+          ></Courses>)
+          }
+        </div>
     </div>
   );
 }
