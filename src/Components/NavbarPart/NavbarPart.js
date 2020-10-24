@@ -14,7 +14,7 @@ const NavbarPart = () => {
             width="100"
             height="40"
             className="d-inline-block align-top"
-          /> Creative
+          /> <b>Creative</b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -36,7 +36,7 @@ const NavbarPart = () => {
               </Nav.Link>
             <Nav.Link
               className="mr-2"
-              href="#link">
+              href="#">
                <Button
                 className="pl-5 pr-5"
                 variant="outline-secondary">

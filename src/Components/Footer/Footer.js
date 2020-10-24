@@ -8,7 +8,6 @@ import { faFacebook, faGooglePlus, faInstagram, faLinkedinIn, faTwitter } from '
 const Footer = () => {
   return (
     <>
-    <div className="">
         <Container>
           <Row className="footer text-white p-5">
           <hr />
@@ -66,7 +65,6 @@ const Footer = () => {
           <p>CopyRight Confident {(new Date()).getFullYear()} All Rights Reserved</p>
         </div>
       </Container>
-      </div>
       </>
   );
 };
