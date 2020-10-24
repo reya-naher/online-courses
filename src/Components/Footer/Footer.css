@@ -1,0 +1,22 @@
+.footer{
+  background-color: #0f7c90;
+  }
+  .input-footer{
+    width: 80%;
+  }
+  .email::placeholder {
+    font-weight: 500;
+    width: 80%;
+    color: black;
+  }
+  .footer-list li{
+    display: inline;
+    padding: 5px;
+  }
+  
+  @media (max-width: 640px) {
+  textarea {
+    max-width: 100%;
+  }
+    }
+  

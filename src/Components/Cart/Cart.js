@@ -44,7 +44,7 @@ const Cart = (props) => {
                     height={64}
                     className="align-self-start mr-3"
                     src={data.img}
-                    alt="course image"
+                    alt="course"
                   />
                   <Media.Body>
                     <h5> {data.name}

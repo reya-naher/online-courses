@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './AttachedCart.css'
-import { Media, Card, Row, Col } from 'react-bootstrap';
+import { Media, Row, Col } from 'react-bootstrap';
 import fake from '../../FakeData/fake';
 
 const AttachedCart = ({ data, price }) => {

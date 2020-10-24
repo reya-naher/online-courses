@@ -9,7 +9,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://img.techpowerup.org/200827/c1.jpg"
+            src="https://i.ibb.co/pKqpLBS/c1.jpg"
             alt="../../../images/c1.jpg"
           />
           <Carousel.Caption>
@@ -24,7 +24,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://img.techpowerup.org/200827/c4.jpg"
+            src="https://i.ibb.co/Z8dPCRR/c4.jpg"
             alt="../../../images/c4.jpg"
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://img.techpowerup.org/200827/c2.jpg"
+            src="https://i.ibb.co/J3X4cGG/c2.jpg"
             alt="../../../images/c2.jpg"
           />
           <Carousel.Caption>

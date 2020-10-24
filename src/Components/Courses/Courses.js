@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Courses.css';
-import fake from '../../FakeData/fake';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faCartPlus, faStarHalfAlt, faUserAlt } from '@fortawesome/free-solid-svg-icons';
 import Cart from '../Cart/Cart';
@@ -32,9 +31,9 @@ const Courses = (props) => {
   }
 
   return (
-    /* courses show in homepage*/
-    <div className="container">
-      <div className="col-md-3 card-container">
+  /* courses show in homepage*/
+    <>
+      <div className="col-md-3 card-container mb-5">
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">
@@ -110,7 +109,7 @@ const Courses = (props) => {
           </Cart>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 
